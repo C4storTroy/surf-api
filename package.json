@@ -9,7 +9,8 @@
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src ./test --ext .ts",
-    "lint:fix": "eslint ./src ./test --ext .ts --fix"
+    "lint:fix": "eslint ./src ./test --ext .ts --fix",
+    "test:functional": "jest --projects ./test --forceExit --runInBand"
   },
   "keywords": [
     "nodejs",
